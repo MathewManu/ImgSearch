@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<title>Image Search</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<style>
+body,h1,h6 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('https://images.unsplash.com/photo-1496309732348-3627f3f040ee?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=14d1045387c8116077bf8725732e8cd7&auto=format&fit=crop&w=1350&q=80');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-top: 650px;
+    opacity: .8%
+}
+.tagger {
+    letter-spacing: 14px;
+}
+</style>
+<body>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    
+  </div>
+  <div class="w3-display-middle w3-text-white">
+    
+    <h1 class="w3-jumbo w3-animate-top tagger">Image Search</h1>
+
+    
+    <form class="w3-container" method="POST" action="search">
+        <p>
+          <input class="w3-input  w3-round-large" type="text" name="tag"                                                       placeholder="                                   Search photos, eg: people, coffee, sunset"  style="text-align: left;">
+        </p>
+
+    </form>
+
+  </div>
+
+</div>
+
+</body>
+</html>
